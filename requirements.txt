@@ -1,0 +1,7 @@
+pandas
+numpy
+seaborn
+
+#going to use pip install -e in terminal to install my project in editable mode separately
+# remove this; code goes into loop
+#-e . # automatically trigger setup.py file
