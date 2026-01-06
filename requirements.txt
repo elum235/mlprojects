@@ -1,6 +1,10 @@
 pandas
 numpy
 seaborn
+scikit-learn
+catboost
+xgboost
+
 
 #going to use pip install -e in terminal to install my project in editable mode separately
 # remove this; code goes into loop

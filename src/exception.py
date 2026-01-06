@@ -1,5 +1,6 @@
 import sys
-import logging
+from src.logger import logging
+
 
 # Custom Exception Handling
 
@@ -19,7 +20,16 @@ class CustomException(Exception):
 
   def __str__(self):
     return self.error_message
-  
 
+# Don't want logging at this time  
+# To use this remember to import: from src.logger import logging
+# if __name__=="__main__":
+
+#   try:
+#       a=1/0
+#   except Exception as e:
+#     logging.info("Divide by Zero")
+#     raise CustomException(e,sys)
+  
 
   
