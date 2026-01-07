@@ -4,6 +4,7 @@ seaborn
 scikit-learn
 catboost
 xgboost
+dill
 
 
 #going to use pip install -e in terminal to install my project in editable mode separately
